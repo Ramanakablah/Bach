@@ -1,0 +1,642 @@
+{
+    "status": "success",
+    "time": "11/17/2022 3:26:19 PM",
+    "errorMessage": null,
+    "data": {
+        "rates": [
+            {
+                "rooms": [
+                    {
+                        "description": "Deluxe Room Double / twin"
+                    }
+                ],
+                "price": 3817,
+                "payment_type": [
+                    "AT_WEB"
+                ],
+                "other_inclusions": null,
+                "boarding_details": [
+                    "Room Only"
+                ],
+                "pnr": null,
+                "currency": "INR",
+                "commissions": null,
+                "cancellation_policy": null,
+                "sold": null,
+                "promotions_details": [
+                    "Non-refundable rate. No amendments permitted"
+                ]
+            },
+            {
+                "rooms": [
+                    {
+                        "description": "Double or Twin Deluxe Room Double / twin"
+                    }
+                ],
+                "price": 3965,
+                "payment_type": [
+                    "AT_WEB"
+                ],
+                "other_inclusions": [
+                    "Free WiFi"
+                ],
+                "boarding_details": [
+                    "Room Only"
+                ],
+                "pnr": "Y",
+                "currency": "INR",
+                "commissions": null,
+                "cancellation_policy": {
+                    "under_cancellation": false,
+                    "cancel_by_date": "Y"
+                },
+                "sold": null,
+                "promotions_details": null
+            },
+            {
+                "rooms": [
+                    {
+                        "description": "Deluxe Room Double / twin"
+                    }
+                ],
+                "price": 4008,
+                "payment_type": [
+                    "AT_WEB"
+                ],
+                "other_inclusions": null,
+                "boarding_details": [
+                    "Room Only"
+                ],
+                "pnr": null,
+                "currency": "INR",
+                "commissions": null,
+                "cancellation_policy": {
+                    "under_cancellation": false,
+                    "cancel_by_date": "Y"
+                },
+                "sold": null,
+                "promotions_details": [
+                    "Non-refundable rate. No amendments permitted"
+                ]
+            },
+            {
+                "rooms": [
+                    {
+                        "description": "Deluxe Room Double / twin"
+                    }
+                ],
+                "price": 4144,
+                "payment_type": [
+                    "AT_WEB"
+                ],
+                "other_inclusions": null,
+                "boarding_details": [
+                    "Room Only"
+                ],
+                "pnr": null,
+                "currency": "INR",
+                "commissions": null,
+                "cancellation_policy": {
+                    "under_cancellation": false,
+                    "cancel_by_date": "Y"
+                },
+                "sold": null,
+                "promotions_details": [
+                    "PROMO Non-refundable rate. No amendments permitted",
+                    "PROMO Non-refundable rate. No amendments permitted",
+                    "PROMO Exclusive discount",
+                    "PROMO Exclusive discount",
+                    "PROMO Amount",
+                    "PROMO -5,76",
+                    "PROMO Early Booking discount",
+                    "PROMO Early Booking discount",
+                    "PROMO Amount",
+                    "PROMO -5,76"
+                ]
+            },
+            {
+                "rooms": [
+                    {
+                        "description": "Deluxe Room Double / twin"
+                    }
+                ],
+                "price": 4294,
+                "payment_type": [
+                    "AT_WEB"
+                ],
+                "other_inclusions": null,
+                "boarding_details": [
+                    "Room Only"
+                ],
+                "pnr": null,
+                "currency": "INR",
+                "commissions": null,
+                "cancellation_policy": null,
+                "sold": null,
+                "promotions_details": [
+                    "Non-refundable rate. No amendments permitted"
+                ]
+            },
+            {
+                "rooms": [
+                    {
+                        "description": "Double Deluxe Room"
+                    }
+                ],
+                "price": 4586,
+                "payment_type": [
+                    "AT_WEB"
+                ],
+                "other_inclusions": null,
+                "boarding_details": [
+                    "Room Only"
+                ],
+                "pnr": null,
+                "currency": "INR",
+                "commissions": null,
+                "cancellation_policy": {
+                    "under_cancellation": false,
+                    "cancel_by_date": "Y"
+                },
+                "sold": null,
+                "promotions_details": null
+            },
+            {
+                "rooms": [
+                    {
+                        "description": "Deluxe Room Double / twin"
+                    }
+                ],
+                "price": 4876,
+                "payment_type": [
+                    "AT_WEB"
+                ],
+                "other_inclusions": null,
+                "boarding_details": [
+                    "Bed and Breakfast"
+                ],
+                "pnr": null,
+                "currency": "INR",
+                "commissions": null,
+                "cancellation_policy": null,
+                "sold": null,
+                "promotions_details": [
+                    "Non-refundable rate. No amendments permitted"
+                ]
+            },
+            {
+                "rooms": [
+                    {
+                        "description": "Double or Twin Deluxe Room Double / twin"
+                    }
+                ],
+                "price": 5065,
+                "payment_type": [
+                    "AT_WEB"
+                ],
+                "other_inclusions": [
+                    "Free WiFi",
+                    "Breakfast"
+                ],
+                "boarding_details": [
+                    "Bed and Breakfast"
+                ],
+                "pnr": "Y",
+                "currency": "INR",
+                "commissions": null,
+                "cancellation_policy": {
+                    "under_cancellation": false,
+                    "cancel_by_date": "Y"
+                },
+                "sold": null,
+                "promotions_details": null
+            },
+            {
+                "rooms": [
+                    {
+                        "description": "Deluxe King"
+                    }
+                ],
+                "price": 5149,
+                "payment_type": [
+                    "AT_WEB"
+                ],
+                "other_inclusions": [
+                    "Free WiFi"
+                ],
+                "boarding_details": [
+                    "Room Only"
+                ],
+                "pnr": "Y",
+                "currency": "INR",
+                "commissions": null,
+                "cancellation_policy": {
+                    "under_cancellation": false,
+                    "cancel_by_date": "Y"
+                },
+                "sold": null,
+                "promotions_details": null
+            },
+            {
+                "rooms": [
+                    {
+                        "description": "Deluxe Twin"
+                    }
+                ],
+                "price": 5149,
+                "payment_type": [
+                    "AT_WEB"
+                ],
+                "other_inclusions": [
+                    "Free WiFi"
+                ],
+                "boarding_details": [
+                    "Room Only"
+                ],
+                "pnr": "Y",
+                "currency": "INR",
+                "commissions": null,
+                "cancellation_policy": {
+                    "under_cancellation": false,
+                    "cancel_by_date": "Y"
+                },
+                "sold": null,
+                "promotions_details": null
+            },
+            {
+                "rooms": [
+                    {
+                        "description": "Deluxe Room Double / twin"
+                    }
+                ],
+                "price": 5293,
+                "payment_type": [
+                    "AT_WEB"
+                ],
+                "other_inclusions": null,
+                "boarding_details": [
+                    "Bed and Breakfast"
+                ],
+                "pnr": null,
+                "currency": "INR",
+                "commissions": null,
+                "cancellation_policy": {
+                    "under_cancellation": false,
+                    "cancel_by_date": "Y"
+                },
+                "sold": null,
+                "promotions_details": [
+                    "PROMO Non-refundable rate. No amendments permitted",
+                    "PROMO Non-refundable rate. No amendments permitted",
+                    "PROMO Exclusive discount",
+                    "PROMO Exclusive discount",
+                    "PROMO Amount",
+                    "PROMO -5,76",
+                    "PROMO Early Booking discount",
+                    "PROMO Early Booking discount",
+                    "PROMO Amount",
+                    "PROMO -5,76"
+                ]
+            },
+            {
+                "rooms": [
+                    {
+                        "description": "Deluxe King"
+                    }
+                ],
+                "price": 5663,
+                "payment_type": [
+                    "AT_WEB"
+                ],
+                "other_inclusions": [
+                    "Free WiFi",
+                    "Breakfast"
+                ],
+                "boarding_details": [
+                    "Bed and Breakfast"
+                ],
+                "pnr": "Y",
+                "currency": "INR",
+                "commissions": null,
+                "cancellation_policy": {
+                    "under_cancellation": false,
+                    "cancel_by_date": "Y"
+                },
+                "sold": null,
+                "promotions_details": null
+            },
+            {
+                "rooms": [
+                    {
+                        "description": "Deluxe Twin"
+                    }
+                ],
+                "price": 5663,
+                "payment_type": [
+                    "AT_WEB"
+                ],
+                "other_inclusions": [
+                    "Free WiFi",
+                    "Breakfast"
+                ],
+                "boarding_details": [
+                    "Bed and Breakfast"
+                ],
+                "pnr": "Y",
+                "currency": "INR",
+                "commissions": null,
+                "cancellation_policy": {
+                    "under_cancellation": false,
+                    "cancel_by_date": "Y"
+                },
+                "sold": null,
+                "promotions_details": null
+            },
+            {
+                "rooms": [
+                    {
+                        "description": "Suite King"
+                    }
+                ],
+                "price": 9267,
+                "payment_type": [
+                    "AT_WEB"
+                ],
+                "other_inclusions": [
+                    "Free WiFi"
+                ],
+                "boarding_details": [
+                    "Room Only"
+                ],
+                "pnr": "Y",
+                "currency": "INR",
+                "commissions": null,
+                "cancellation_policy": {
+                    "under_cancellation": false,
+                    "cancel_by_date": "Y"
+                },
+                "sold": null,
+                "promotions_details": null
+            },
+            {
+                "rooms": [
+                    {
+                        "description": "JUNIOR SUITE"
+                    }
+                ],
+                "price": 9543,
+                "payment_type": [
+                    "AT_WEB"
+                ],
+                "other_inclusions": null,
+                "boarding_details": [
+                    "Room Only"
+                ],
+                "pnr": null,
+                "currency": "INR",
+                "commissions": null,
+                "cancellation_policy": null,
+                "sold": null,
+                "promotions_details": [
+                    "Non-refundable rate. No amendments permitted"
+                ]
+            },
+            {
+                "rooms": [
+                    {
+                        "description": "JUNIOR SUITE"
+                    }
+                ],
+                "price": 10020,
+                "payment_type": [
+                    "AT_WEB"
+                ],
+                "other_inclusions": null,
+                "boarding_details": [
+                    "Room Only"
+                ],
+                "pnr": null,
+                "currency": "INR",
+                "commissions": null,
+                "cancellation_policy": {
+                    "under_cancellation": false,
+                    "cancel_by_date": "Y"
+                },
+                "sold": null,
+                "promotions_details": [
+                    "Non-refundable rate. No amendments permitted"
+                ]
+            },
+            {
+                "rooms": [
+                    {
+                        "description": "JUNIOR SUITE"
+                    }
+                ],
+                "price": 10357,
+                "payment_type": [
+                    "AT_WEB"
+                ],
+                "other_inclusions": null,
+                "boarding_details": [
+                    "Room Only"
+                ],
+                "pnr": null,
+                "currency": "INR",
+                "commissions": null,
+                "cancellation_policy": {
+                    "under_cancellation": false,
+                    "cancel_by_date": "Y"
+                },
+                "sold": null,
+                "promotions_details": [
+                    "PROMO Non-refundable rate. No amendments permitted",
+                    "PROMO Non-refundable rate. No amendments permitted",
+                    "PROMO Exclusive discount",
+                    "PROMO Exclusive discount",
+                    "PROMO Amount",
+                    "PROMO -14,41",
+                    "PROMO Early Booking discount",
+                    "PROMO Early Booking discount",
+                    "PROMO Amount",
+                    "PROMO -14,41"
+                ]
+            },
+            {
+                "rooms": [
+                    {
+                        "description": "JUNIOR SUITE"
+                    }
+                ],
+                "price": 10603,
+                "payment_type": [
+                    "AT_WEB"
+                ],
+                "other_inclusions": null,
+                "boarding_details": [
+                    "Bed and Breakfast"
+                ],
+                "pnr": null,
+                "currency": "INR",
+                "commissions": null,
+                "cancellation_policy": null,
+                "sold": null,
+                "promotions_details": [
+                    "Non-refundable rate. No amendments permitted"
+                ]
+            },
+            {
+                "rooms": [
+                    {
+                        "description": "JUNIOR SUITE"
+                    }
+                ],
+                "price": 10736,
+                "payment_type": [
+                    "AT_WEB"
+                ],
+                "other_inclusions": null,
+                "boarding_details": [
+                    "Room Only"
+                ],
+                "pnr": null,
+                "currency": "INR",
+                "commissions": null,
+                "cancellation_policy": null,
+                "sold": null,
+                "promotions_details": [
+                    "Non-refundable rate. No amendments permitted"
+                ]
+            },
+            {
+                "rooms": [
+                    {
+                        "description": "JUNIOR SUITE"
+                    }
+                ],
+                "price": 11132,
+                "payment_type": [
+                    "AT_WEB"
+                ],
+                "other_inclusions": null,
+                "boarding_details": [
+                    "Bed and Breakfast"
+                ],
+                "pnr": null,
+                "currency": "INR",
+                "commissions": null,
+                "cancellation_policy": {
+                    "under_cancellation": false,
+                    "cancel_by_date": "Y"
+                },
+                "sold": null,
+                "promotions_details": [
+                    "Non-refundable rate. No amendments permitted"
+                ]
+            },
+            {
+                "rooms": [
+                    {
+                        "description": "Double Junior Suite Room"
+                    }
+                ],
+                "price": 11441,
+                "payment_type": [
+                    "AT_WEB"
+                ],
+                "other_inclusions": null,
+                "boarding_details": [
+                    "Room Only"
+                ],
+                "pnr": null,
+                "currency": "INR",
+                "commissions": null,
+                "cancellation_policy": {
+                    "under_cancellation": false,
+                    "cancel_by_date": "Y"
+                },
+                "sold": null,
+                "promotions_details": null
+            },
+            {
+                "rooms": [
+                    {
+                        "description": "JUNIOR SUITE"
+                    }
+                ],
+                "price": 11507,
+                "payment_type": [
+                    "AT_WEB"
+                ],
+                "other_inclusions": null,
+                "boarding_details": [
+                    "Bed and Breakfast"
+                ],
+                "pnr": null,
+                "currency": "INR",
+                "commissions": null,
+                "cancellation_policy": {
+                    "under_cancellation": false,
+                    "cancel_by_date": "Y"
+                },
+                "sold": null,
+                "promotions_details": [
+                    "PROMO Non-refundable rate. No amendments permitted",
+                    "PROMO Non-refundable rate. No amendments permitted",
+                    "PROMO Exclusive discount",
+                    "PROMO Exclusive discount",
+                    "PROMO Amount",
+                    "PROMO -14,41",
+                    "PROMO Early Booking discount",
+                    "PROMO Early Booking discount",
+                    "PROMO Amount",
+                    "PROMO -14,41"
+                ]
+            },
+            {
+                "rooms": [
+                    {
+                        "description": null
+                    }
+                ],
+                "price": 20593,
+                "payment_type": [
+                    "AT_WEB"
+                ],
+                "other_inclusions": [
+                    "Free WiFi"
+                ],
+                "boarding_details": [
+                    "Room Only"
+                ],
+                "pnr": "Y",
+                "currency": "INR",
+                "commissions": null,
+                "cancellation_policy": {
+                    "under_cancellation": false,
+                    "cancel_by_date": "Y"
+                },
+                "sold": null,
+                "promotions_details": null
+            }
+        ],
+        "min_rate": null,
+        "name": "Delmon Palace Hotel",
+        "images": {
+            "main_image": "1847471/e56e7bc4b9f25b57d2a7954b9b610e1d.jpg"
+        },
+        "hotel_code": "1847471",
+        "geolocation": {
+            "longitude": 55.32258303,
+            "latitude": 25.26087847
+        },
+        "facilities": "Air conditioning ; Lounges/bars ; Elevators ; Restaurant ; Concierge desk ; Complimentary newspaper delivered to room ; Complimentary in-room coffee or tea ; Housekeeping - daily ; Phone services ; Safe deposit box ; Nightclub ; Safe deposit box ; Multilingual staff ; Complimentary newspaper in lobby ; 24-hour front desk ; Bell staff/porter ; Laundry/Valet service ; Tour/sightseeing desk ; Complimentary wireless internet ; Complimentary wireless internet ; Cloakroom service",
+        "description": "<p><b>Property Location</b> <br />With a stay at Delmon Palace Hotel in Dubai (Deira), you'll be within a 5-minute drive of Creek Park and Al Ghurair Centre. This hotel is 2 mi (3.2 km) from Gold Souk and 2.3 mi (3.7 km) from Dubai Creek.</p><p><b>Rooms</b> <br />Make yourself at home in one of the 125 air-conditioned rooms featuring minibars and LCD televisions. Rooms have private balconies. Complimentary wireless Internet access keeps you connected, and cable programming is available for your entertainment. Private bathrooms with shower/tub combinations feature deep soaking bathtubs and complimentary toiletries.</p><p><b>Amenities</b> <br />Take advantage of recreation opportunities such as a nightclub, or other amenities including complimentary wireless Internet access and concierge services.</p><p><b>Dining</b> <br />Satisfy your appetite for lunch or dinner at Pabippura, a restaurant which specializes in international cuisine, or stay in and take advantage of the 24-hour room service. Quench your thirst with your favorite drink at the bar/lounge. Buffet breakfasts are available daily from 7 AM to 10 AM for a fee.</p><p><b>Business, Other Amenities</b> <br />Featured amenities include complimentary newspapers in the lobby, dry cleaning/laundry services, and a 24-hour front desk. A roundtrip airport shuttle is provided for a surcharge (available 24 hours), and self parking (subject to charges) is available onsite.</p>",
+        "country": "AE",
+        "city_code": "121449",
+        "category": 3,
+        "address": "42 A Street, Al Rigga Road, Deira, Dubai",
+        "acc_type": "0",
+        "featured": false
+    }
+}
