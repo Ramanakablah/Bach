@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express()
 const response = require("./respond")
-
+const port = process.env.PORT || 5000
 
 app.use((req,res,next)=>{
    res.setHeader("Access-Control-Allow-Origin","http://localhost:3000");
@@ -41,6 +41,6 @@ app.get("/get/preflight",(req,res)=>{
   // console.log(req.headers)
     
 
-app.listen(5000,()=>{
+app.listen(port,()=>{
     console.log("Listening at 5000")
 })
