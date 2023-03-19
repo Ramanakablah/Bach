@@ -1,7 +1,5 @@
 const express = require("express");
-const mongoose  = require("mongoose");
 const app = express()
-const mysql = require("mysql")
 const response = require("./respond")
 
 
@@ -15,16 +13,6 @@ app.use((req,res,next)=>{
 
 app.get("/",(req,res)=>{
     res.send("hello")
-})
-
-
-con.connect((err)=>{
-    if(err){
-        console.log(err)
-    }
-    else{
-        console.log("connected !")
-    }
 })
 
 const somefunc=()=>{
