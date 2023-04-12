@@ -1,7 +1,13 @@
+const dotenv = require("dotenv")
 const express = require("express");
 const app = express()
-const response = require("./respond")
 const port = process.env.PORT || 5000
+const os = require("node:os")
+const {Connection} = require("./db")
+dotenv.config()
+Connection()
+
+const {Usermodel} = require("./app/Schemas/UsersSchema")
 
 app.use((req,res,next)=>{
    res.setHeader("Access-Control-Allow-Origin","http://localhost:3000");
@@ -11,36 +17,11 @@ app.use((req,res,next)=>{
    next();   
  })
 
-app.get("/",(req,res)=>{
-    res.send("hello")
-})
+ app.use(express.json())
+ app.use(express.urlencoded({extended:true}))
 
-const somefunc=()=>{
-    console.log("Hello Im a function that can do some stuff in server side independently")
-}
-
-app.get("/get/simplereq",(req,res)=>{
-    console.log(req.headers)
-    if(req.headers.origin==="http://localhost:3000"){
-        console.log("Its safe")
-    somefunc();
-    }
-    else{
-        console.log("Somethings fishy")
-    }
-    console.log("res is made")
-    res.setHeader("Pragma","no-cache").setHeader("Cache-Control","no-store");
-    response(res,200,"success",null,"Hello Mr Potter")
-})
-
-app.get("/get/preflight",(req,res)=>{
-    console.log(req.header.Custom_Headre)
-   res.status().send("This request required preflight")
-})
-
-  // console.log(req.headers)
-    
-
+ app.use("/",require("./app/Routes/UserRoutes/UserRouter"))
+ 
 app.listen(port,()=>{
     console.log("Listening at 5000")
 })
