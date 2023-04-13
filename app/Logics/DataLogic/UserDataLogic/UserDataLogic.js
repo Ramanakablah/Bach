@@ -6,12 +6,6 @@ const Response = require("../../../methods/Response/respond")
 
 module.exports.DBCheckuser = async (req,res) => {
   const obj = res.locals.obj
-  // const Hasher = res.locals.hasheer
-  // const DepInj = await Hasher(req.body.name)
-  // console.log(DepInj)
-  // console.log(obj , req.body)
-  // const resp = await Comparer(req.body.password,obj.password)
-  // console.log(resp)
     const Existinguser = await UserModel.findOne({ email: obj.email })
     if(Existinguser!==null){
       console.log("Its null")
@@ -37,7 +31,6 @@ module.exports.SigninChecker = async (req,res)=>{
     console.log(error)
     Response(res,500,"Success","Server at error",null)
    }
-
    }
    else{
     Response(res,200,"Failed","User already exists",null)
@@ -51,7 +44,6 @@ module.exports.EmailChecker = async (req,res)=>{
     console.log(Existinguser)
     if(Existinguser===null){
       try {
-        // const Creatinguser = await UserModel.create(user)
         Response(res,200,"Success","User created",null)
       } catch (error) {
         console.log(error)
@@ -65,4 +57,35 @@ module.exports.EmailChecker = async (req,res)=>{
     console.log(error)
     Response(res,400,"Failed",null,"Error at server")
    }
+}
+
+module.exports.Loginchecker = async(req,res)=>{
+  const user = res.locals.user;
+  try {
+    try {
+      const Existinguser = await UserModel.findOne({email:user.email})
+      if(Existinguser===null){
+        Response(res,200,"Failed",null,"User does not exist")
+      }
+      else{
+        try {
+          const Matchuser = await Comparer(user.password,Existinguser.password);
+          if(Matchuser){
+            const token = await Tokenize(Existinguser._id)
+            Response(res,200,"Success",{msg:"User Logged in 😎😎⭐",token},null)
+          }
+          else{
+            Response(res,400,"Failed",null,"Password does not match 🥶🥶")
+          }
+        } catch (error) {
+          Response(res,400,"Failed",null,"Server Facing issues try after 10 mins 😎🙏")
+        }
+      }
+    } catch (error) {
+      Response(res,400,"Failed",null,"Server Facing issues try after 10 mins 😎🙏")
+    }
+  } catch (error) {
+    Response(res,400,"Failed",null,"Server is Down 😎😎")
+  }
+
 }
