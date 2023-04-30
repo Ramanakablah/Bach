@@ -1,7 +1,7 @@
 const jwt = require("jsonwebtoken")
 
 module.exports.Tokenize = async (obj)=>{
-    const Token = jwt.sign(obj,process.env.AWSOME_TOKEN_KEY)
+    const Token = await jwt.sign(obj,process.env.AWSOME_TOKEN_KEY)
     return Token
 } 
 

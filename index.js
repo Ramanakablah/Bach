@@ -18,14 +18,7 @@ app.use((req, res, next) => {
   next();
 })
 
-if (cluster.isMaster) {
   Connection()
-  for (let i = 0; i < cppus; i++) {
-    cluster.fork()
-  }
-}
-else {
-
   app.use(express.json())
   app.use(express.urlencoded({ extended: true }))
 
@@ -34,9 +27,6 @@ else {
     console.log("Listening Worker Process at ", process.pid)
   })
 
-}
-
-// console.log(cluster)
 
 
 

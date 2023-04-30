@@ -63,26 +63,31 @@ module.exports.Loginchecker = async(req,res)=>{
   const user = res.locals.user;
   try {
     try {
-      const Existinguser = await UserModel.findOne({email:user.email})
+      const Existinguser = await UserModel.findOne({email:user.username})
       if(Existinguser===null){
         Response(res,200,"Failed",null,"User does not exist")
       }
       else{
         try {
+          console.log(user,Existinguser)
           const Matchuser = await Comparer(user.password,Existinguser.password);
-          if(Matchuser){
-            const token = await Tokenize(Existinguser._id)
-            Response(res,200,"Success",{msg:"User Logged in 😎😎⭐",token},null)
+          console.log(Matchuser)
+          if(Matchuser===true){
+            const token = await Tokenize({id:Existinguser._id})
+            console.log(token)
+            Response(res,200,"Success",{msg:"User Logged in 😎😎⭐",token:token},null)
           }
           else{
             Response(res,400,"Failed",null,"Password does not match 🥶🥶")
           }
         } catch (error) {
+          console.log(error)
           Response(res,400,"Failed",null,"Server Facing issues try after 10 mins 😎🙏")
+
         }
       }
     } catch (error) {
-      Response(res,400,"Failed",null,"Server Facing issues try after 10 mins 😎🙏")
+      Response(res,400,"Failed",null,"Server Facing issues try after 20 mins 😎🙏")
     }
   } catch (error) {
     Response(res,400,"Failed",null,"Server is Down 😎😎")

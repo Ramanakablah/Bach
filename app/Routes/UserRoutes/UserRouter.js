@@ -6,7 +6,7 @@ const {DBCheckuser,SigninChecker, EmailChecker,Loginchecker} = require("../../Lo
 
 // router.post("/login",[body("username").isEmail(),body("password").isStrongPassword()],LoginValid,DBCheckuser)
 router.post("/add",Newadds,SigninChecker)
-router.post("/signin",Signinvalid,EmailChecker)
+router.post("/signin",Signinvalid,SigninChecker)
 router.post("/signup",[body("username").isEmail(),body("password").isLength({min:6})],Newadds,Loginchecker)
 router.post("/bucket")
 

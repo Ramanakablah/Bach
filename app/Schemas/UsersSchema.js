@@ -12,6 +12,10 @@ const UserSchema = new Schema({
         max:100,
         required:true,
     },
+    password:{
+        type:String,
+        required:true
+    },
     contact_number:{
         type:Number,
         max:10000000000,
